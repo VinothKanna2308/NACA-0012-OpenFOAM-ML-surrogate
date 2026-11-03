@@ -1,0 +1,11 @@
+__pycache__/
+runs/
+*.msh
+case/naca0012.msh
+case/[0-9]*/
+case/constant/polyMesh/
+case/postProcessing/
+case/log.*
+reference/*.dat
+.venv/
+.pytest_cache/

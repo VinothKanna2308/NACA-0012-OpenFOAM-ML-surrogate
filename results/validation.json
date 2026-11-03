@@ -1,0 +1,10 @@
+{
+  "CL": 1.0734519312500002,
+  "CD": 0.012832701179499998,
+  "CL_ref_CFL3D": 1.0909,
+  "CD_ref_CFL3D": 0.01231,
+  "dCL_pct": -1.5994196305802386,
+  "dCD_pct": 4.2461509301380875,
+  "CL_in_code_spread": false,
+  "CD_in_code_spread": false
+}

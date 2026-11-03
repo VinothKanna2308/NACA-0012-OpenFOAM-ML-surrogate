@@ -1,0 +1,35 @@
+{
+  "level": "coarse",
+  "file": "/home/tesla/OpenFOAM/tesla-v2606/run/OpenFoam_NACA0012/mesh/naca0012_coarse.msh",
+  "ni": 289,
+  "nj": 72,
+  "n_cells": 20736,
+  "q_bl": 1.2314101576246475,
+  "q_wake": 1.2311545995744169,
+  "q_outer_max": 1.2202570463854823,
+  "n_bl": 43,
+  "ds_te": 0.0010688535583476759,
+  "arc_upper": 1.019549679858345,
+  "n_nodes": 42096,
+  "n_hex": 20736,
+  "n_quads": 42096,
+  "patch_faces": {
+    "airfoil": 192,
+    "farfield": 288,
+    "outlet": 144,
+    "frontAndBack": 41472
+  },
+  "quality": {
+    "n_cells": 20736,
+    "min_area": 9.614961807872314e-09,
+    "min_angle": 58.65953206590595,
+    "max_angle": 121.46941194256584,
+    "max_aspect": 2241.3076124020945,
+    "max_nonortho": 31.28406031798398,
+    "mean_nonortho": 5.630508317917072,
+    "max_growth": 1.2314101837537013,
+    "min_growth": 1.0000110682239256,
+    "h_wall_min": 8.999999999977827e-06,
+    "h_wall_max": 1.068853558347334e-05
+  }
+}

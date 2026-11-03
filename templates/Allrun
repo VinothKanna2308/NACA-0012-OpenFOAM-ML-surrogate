@@ -1,0 +1,10 @@
+#!/bin/sh
+# Mesh import + steady SA run.  Needs OpenFOAM (ESI v2212+) sourced, i.e. WM_PROJECT_DIR set.
+cd "${0%/*}" || exit 1
+. ${WM_PROJECT_DIR:?"source the OpenFOAM bashrc first"}/bin/tools/RunFunctions
+
+runApplication gmshToFoam naca0012.msh
+# gmshToFoam makes every patch type 'patch'; set airfoil=wall, frontAndBack=empty
+python3 fix_boundary.py . || exit 1
+runApplication checkMesh -allGeometry -allTopology
+runApplication $(getApplication)
